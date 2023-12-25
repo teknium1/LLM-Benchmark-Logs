@@ -3,7 +3,8 @@ TruthfulQA:
 |    Task     |Version|Metric|Value |   |Stderr|
 |-------------|------:|------|-----:|---|-----:|
 |truthfulqa_mc|      1|mc1   |0.4259|±  |0.0173|
-|             |       |mc2   |0.6016|±  |0.0146|```
+|             |       |mc2   |0.6016|±  |0.0146|
+```
 
 GPT4All:
 ```hf-causal-experimental (pretrained=Qwen/Qwen-72B,dtype=float16,trust_remote_code=True,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 20
@@ -20,7 +21,8 @@ GPT4All:
 |             |       |acc_norm|0.4720|±  |0.0223|
 |piqa         |      0|acc     |0.8194|±  |0.0090|
 |             |       |acc_norm|0.8259|±  |0.0088|
-|winogrande   |      0|acc     |0.7774|±  |0.0117|```
+|winogrande   |      0|acc     |0.7774|±  |0.0117|
+```
 
 AGIEval:
 ```hf-causal-experimental (pretrained=Qwen/Qwen-72B,dtype=float16,trust_remote_code=True,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 20
