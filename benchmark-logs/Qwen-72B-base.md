@@ -23,6 +23,7 @@ GPT4All:
 |             |       |acc_norm|0.8259|±  |0.0088|
 |winogrande   |      0|acc     |0.7774|±  |0.0117|
 ```
+Average: 72.89
 
 AGIEval:
 ```hf-causal-experimental (pretrained=Qwen/Qwen-72B,dtype=float16,trust_remote_code=True,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 20
@@ -44,3 +45,6 @@ AGIEval:
 |                              |       |acc_norm|0.4320|±  |0.0346|
 |agieval_sat_math              |      0|acc     |0.4364|±  |0.0335|
 |                              |       |acc_norm|0.3182|±  |0.0315|```
+Average: 42.74
+
+NOTE: QWEN has issues with BigBench in eval harness, so it was not done

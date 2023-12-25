@@ -15,6 +15,7 @@ GPT4All:
 |             |       |acc_norm|0.8335|±  |0.0087|
 |winogrande   |      0|acc     |0.8074|±  |0.0111|
 ```
+Average: 74.87
 
 AGIEval:
 ```hf-causal-experimental (pretrained=deepseek-ai/deepseek-llm-67b-base,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 20
@@ -37,6 +38,7 @@ AGIEval:
 |agieval_sat_math              |      0|acc     |0.4227|±  |0.0334|
 |                              |       |acc_norm|0.3455|±  |0.0321|
 ```
+Average: 36.83
 
 BigBench:
 ```hf-causal-experimental (pretrained=deepseek-ai/deepseek-llm-67b-base,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 20
@@ -61,3 +63,4 @@ BigBench:
 |bigbench_tracking_shuffled_objects_five_objects |      0|multiple_choice_grade|0.2096|±  |0.0115|
 |bigbench_tracking_shuffled_objects_seven_objects|      0|multiple_choice_grade|0.1480|±  |0.0085|
 |bigbench_tracking_shuffled_objects_three_objects|      0|multiple_choice_grade|0.4333|±  |0.0287|```
+Average: 40.51
