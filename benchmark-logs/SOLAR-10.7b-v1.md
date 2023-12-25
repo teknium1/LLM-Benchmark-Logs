@@ -3,7 +3,8 @@ TruthfulQA:
 |    Task     |Version|Metric|Value |   |Stderr|
 |-------------|------:|------|-----:|---|-----:|
 |truthfulqa_mc|      1|mc1   |0.3182|±  |0.0163|
-|             |       |mc2   |0.4565|±  |0.0144|```
+|             |       |mc2   |0.4565|±  |0.0144|
+```
 
 GPT4All:
 ```hf-causal-experimental (pretrained=upstage/SOLAR-10.7B-v1.0,dtype=float16,trust_remote_code=True,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 14
@@ -20,7 +21,8 @@ GPT4All:
 |             |       |acc_norm|0.4400|±  |0.0222|
 |piqa         |      0|acc     |0.8058|±  |0.0092|
 |             |       |acc_norm|0.8194|±  |0.0090|
-|winogrande   |      0|acc     |0.7459|±  |0.0122|```
+|winogrande   |      0|acc     |0.7459|±  |0.0122|
+```
 Average: 71.99
 
 AGIEval:
@@ -42,7 +44,8 @@ AGIEval:
 |agieval_sat_en_without_passage|      0|acc     |0.4223|±  |0.0345|
 |                              |       |acc_norm|0.3883|±  |0.0340|
 |agieval_sat_math              |      0|acc     |0.3727|±  |0.0327|
-|                              |       |acc_norm|0.3136|±  |0.0314|```
+|                              |       |acc_norm|0.3136|±  |0.0314|
+```
 Average: 38.89
 
 BigBench:

@@ -13,7 +13,8 @@ GPT4All:
 |             |       |acc_norm|0.4800|±  |0.0224|
 |piqa         |      0|acc     |0.8226|±  |0.0089|
 |             |       |acc_norm|0.8335|±  |0.0087|
-|winogrande   |      0|acc     |0.8074|±  |0.0111|```
+|winogrande   |      0|acc     |0.8074|±  |0.0111|
+```
 
 AGIEval:
 ```hf-causal-experimental (pretrained=deepseek-ai/deepseek-llm-67b-base,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 20
@@ -34,7 +35,8 @@ AGIEval:
 |agieval_sat_en_without_passage|      0|acc     |0.4951|±  |0.0349|
 |                              |       |acc_norm|0.3641|±  |0.0336|
 |agieval_sat_math              |      0|acc     |0.4227|±  |0.0334|
-|                              |       |acc_norm|0.3455|±  |0.0321|```
+|                              |       |acc_norm|0.3455|±  |0.0321|
+```
 
 BigBench:
 ```hf-causal-experimental (pretrained=deepseek-ai/deepseek-llm-67b-base,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 20
