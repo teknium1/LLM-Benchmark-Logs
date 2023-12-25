@@ -62,5 +62,6 @@ BigBench:
 |bigbench_temporal_sequences                     |      0|multiple_choice_grade|0.4470|±  |0.0157|
 |bigbench_tracking_shuffled_objects_five_objects |      0|multiple_choice_grade|0.2096|±  |0.0115|
 |bigbench_tracking_shuffled_objects_seven_objects|      0|multiple_choice_grade|0.1480|±  |0.0085|
-|bigbench_tracking_shuffled_objects_three_objects|      0|multiple_choice_grade|0.4333|±  |0.0287|```
+|bigbench_tracking_shuffled_objects_three_objects|      0|multiple_choice_grade|0.4333|±  |0.0287|
+```
 Average: 40.51

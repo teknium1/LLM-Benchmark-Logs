@@ -44,7 +44,8 @@ AGIEval:
 |agieval_sat_en_without_passage|      0|acc     |0.5000|±  |0.0349|
 |                              |       |acc_norm|0.4320|±  |0.0346|
 |agieval_sat_math              |      0|acc     |0.4364|±  |0.0335|
-|                              |       |acc_norm|0.3182|±  |0.0315|```
+|                              |       |acc_norm|0.3182|±  |0.0315|
+```
 Average: 42.74
 
 NOTE: QWEN has issues with BigBench in eval harness, so it was not done
