@@ -1,11 +1,3 @@
-TruthfulQA:
-```hf-causal-experimental (pretrained=upstage/SOLAR-10.7B-v1.0,dtype=float16,trust_remote_code=True,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 60
-|    Task     |Version|Metric|Value |   |Stderr|
-|-------------|------:|------|-----:|---|-----:|
-|truthfulqa_mc|      1|mc1   |0.3182|±  |0.0163|
-|             |       |mc2   |0.4565|±  |0.0144|
-```
-
 GPT4All:
 ```hf-causal-experimental (pretrained=upstage/SOLAR-10.7B-v1.0,dtype=float16,trust_remote_code=True,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 14
 |    Task     |Version| Metric |Value |   |Stderr|
@@ -73,3 +65,11 @@ BigBench:
 |bigbench_tracking_shuffled_objects_three_objects|      0|multiple_choice_grade|0.3967|±  |0.0283|
 ```
 Average: 38.66
+
+TruthfulQA:
+```hf-causal-experimental (pretrained=upstage/SOLAR-10.7B-v1.0,dtype=float16,trust_remote_code=True,use_accelerate=True), limit: None, provide_description: False, num_fewshot: 0, batch_size: 60
+|    Task     |Version|Metric|Value |   |Stderr|
+|-------------|------:|------|-----:|---|-----:|
+|truthfulqa_mc|      1|mc1   |0.3182|±  |0.0163|
+|             |       |mc2   |0.4565|±  |0.0144|
+```
