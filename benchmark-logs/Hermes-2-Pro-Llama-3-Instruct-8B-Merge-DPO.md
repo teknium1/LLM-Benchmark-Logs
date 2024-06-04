@@ -42,8 +42,29 @@ Average: 44.05
 
 BigBench:
 ```
+|                      Task                      |Version|       Metric        |Value |   |Stderr|
+|------------------------------------------------|------:|---------------------|-----:|---|-----:|
+|bigbench_causal_judgement                       |      0|multiple_choice_grade|0.6000|±  |0.0356|
+|bigbench_date_understanding                     |      0|multiple_choice_grade|0.6585|±  |0.0247|
+|bigbench_disambiguation_qa                      |      0|multiple_choice_grade|0.3178|±  |0.0290|
+|bigbench_geometric_shapes                       |      0|multiple_choice_grade|0.2340|±  |0.0224|
+|                                                |       |exact_str_match      |0.0000|±  |0.0000|
+|bigbench_logical_deduction_five_objects         |      0|multiple_choice_grade|0.2980|±  |0.0205|
+|bigbench_logical_deduction_seven_objects        |      0|multiple_choice_grade|0.2057|±  |0.0153|
+|bigbench_logical_deduction_three_objects        |      0|multiple_choice_grade|0.5367|±  |0.0288|
+|bigbench_movie_recommendation                   |      0|multiple_choice_grade|0.4040|±  |0.0220|
+|bigbench_navigate                               |      0|multiple_choice_grade|0.4970|±  |0.0158|
+|bigbench_reasoning_about_colored_objects        |      0|multiple_choice_grade|0.7075|±  |0.0102|
+|bigbench_ruin_names                             |      0|multiple_choice_grade|0.4821|±  |0.0236|
+|bigbench_salient_translation_error_detection    |      0|multiple_choice_grade|0.2295|±  |0.0133|
+|bigbench_snarks                                 |      0|multiple_choice_grade|0.6906|±  |0.0345|
+|bigbench_sports_understanding                   |      0|multiple_choice_grade|0.5375|±  |0.0159|
+|bigbench_temporal_sequences                     |      0|multiple_choice_grade|0.6270|±  |0.0153|
+|bigbench_tracking_shuffled_objects_five_objects |      0|multiple_choice_grade|0.2216|±  |0.0118|
+|bigbench_tracking_shuffled_objects_seven_objects|      0|multiple_choice_grade|0.1594|±  |0.0088|
+|bigbench_tracking_shuffled_objects_three_objects|      0|multiple_choice_grade|0.5367|±  |0.0288|
 ```
-Average: 
+Average: 44.13
 
 TruthfulQA:
 ```
